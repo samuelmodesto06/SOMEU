@@ -3,6 +3,9 @@
     --fundo: #9B7EBD;
     --letras: #EEEEEE;
 }
+body {
+    background-color: var(--fundo);
+}
 header {
     background-color: var(--cabecalho);
 }
