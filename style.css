@@ -7,6 +7,11 @@ body {
     background-color: var(--fundo);
 }
 header {
+    display: flex;
+    width: 100%;
     background-color: var(--cabecalho);
+    padding: 1rem;
+    position: relative;
+    justify-content: center;
 }
 
