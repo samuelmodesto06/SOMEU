@@ -3,6 +3,10 @@
     --fundo: #9B7EBD;
     --letras: #EEEEEE;
 }
+menu {
+    width: 20%;
+    display: inline-block;
+}
 .botaodis {
     color: var(--letras);
 }
