@@ -17,10 +17,6 @@ menu {
     padding: 1.05rem 1.5rem;
     color: var(--letras);
 }
-a {
-    text-decoration: none;
-    color: var(--letras);
-}
 body {
     background-color: var(--fundo);
 }
