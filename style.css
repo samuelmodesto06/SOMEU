@@ -32,4 +32,17 @@ header {
     justify-content: center;
     margin: -1%;
 }
+#menutoggle {
+    display: none;
+}
+.lista {
+    display: none;
+    position: absolute;
+    background-color: var(--fundo);
+    box-shadow: 0 2px 5px var(--letras);
+    min-width: 190px;
+    z-index: 1;
+    left: 1rem;
+    top: 100%;
+}
 
