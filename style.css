@@ -3,6 +3,10 @@
     --fundo: #9B7EBD;
     --letras: #EEEEEE;
 }
+a {
+    text-decoration: none;
+    color: var(--letras);
+}
 body {
     background-color: var(--fundo);
 }
