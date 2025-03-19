@@ -1,4 +1,9 @@
-.nav-link {
-    color: #CB6D43;
-    font-weight: 600;
+:root {
+    --cabecalho: #3B1E54;
+    --fundo: #9B7EBD;
+    --letras: #EEEEEE;
 }
+header {
+    background-color: var(--cabecalho);
+}
+
