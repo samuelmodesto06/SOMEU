@@ -30,7 +30,6 @@ header {
     padding: 1rem;
     position: relative;
     justify-content: center;
-    top: 0;
-    left: 0;
+    margin: -1%;
 }
 
