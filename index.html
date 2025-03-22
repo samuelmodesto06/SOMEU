@@ -4,21 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>quimica</title>
+    <title>Química</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
         <div class="menu">
-            <input type="checkbox" id="menutoggle">
-            <label for="menutoggle" class="botaodis">Matérias</label>
-            <nav class="lista">
-                <a href="matematica/matematica.html">matematica</a>
-                <a href="portugues/português.html">portugues</a>
-                <a href="index.html">quimica</a>
+            <button class="botaodis" onclick="toggleMenu()">Matérias</button>
+            <nav class="lista" id="menuLista" style="display: none;">
+                <a href="matematica/matematica.html">Matemática</a>
+                <a href="portugues/portugues.html">Português</a>
+                <a href="index.html">Química</a>
             </nav>
         </div>
     </header>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menuLista");
+            menu.style.display = (menu.style.display === "none" || menu.style.display === "") ? "block" : "none";
+        }
+    </script>
 </body>
-
 </html>
