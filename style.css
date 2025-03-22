@@ -14,7 +14,7 @@ menu {
     background: none;
     background-color: var(--fundo2);
     border: none;
-    padding: 1.05rem 1.5rem;
+    padding: 0.8rem 0.8rem;
     color: var(--letras);
 }
 body {
