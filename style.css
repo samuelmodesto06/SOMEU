@@ -105,3 +105,11 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
+.concluida {
+    font-weight: bold;
+    text-decoration: underline;
+    color: green;
+}
+.status {
+    font-weight: bold;
+}
