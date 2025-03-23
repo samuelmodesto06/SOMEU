@@ -7,12 +7,13 @@
     <title>Português</title>
     <link rel="stylesheet" href="./português.css">
 </head>
+
 <body>
     <header>
         <div class="menu">
             <button class="botaodis" onclick="toggleMenu()">Matérias</button>
             <nav class="lista" id="menuLista" style="display: none;">
-                <a href="português.html">Português</a>                
+                <a href="português.html">Português</a>
                 <a href="matematica.html">Matemática</a>
                 <a href="index.html">Química</a>
             </nav>
@@ -24,5 +25,36 @@
             menu.style.display = (menu.style.display === "none" || menu.style.display === "") ? "block" : "none";
         }
     </script>
+    <section id="atividades">
+        <h2>Atividades</h2>
+        <p>Aqui você encontra as suas atividades da matéria de química.</p>
+        <div class="caixa1">
+            <p>Nenhuma atividade atribuída no momento</p>
+        </div>
+    </section>
+
+    <section id="provas">
+        <h2>Provas</h2>
+        <p>Consulte a data de suas provas antigas e subsequentes.</p>
+        <div class="caixa1">
+            <p>10/03 - <span class="estado">Valor:</span> 2,0 pontos - <span class="estado">Estado:</span> <span
+                    class="concluida">Concluida</span></p>
+            <a><span class="estado">Nota: </span><span class="Nota">1,8 / 2,0</span></a>
+        </div>
+    </section>
+
+    <section id="trabalhos">
+        <h2>Trabalhos</h2>
+        <p>Encontre aqui os trabalhos enviados pelos seus professores.</p>
+        <div class="caixa1">
+            <p>Nenhum Trabalho atribuído no momento</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
+
+</html>
+</body>
+
 </html>

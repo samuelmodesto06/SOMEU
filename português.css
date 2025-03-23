@@ -4,22 +4,30 @@
     --fundo2: #211C84;
     --letras: #EEEEEE;
 }
+
 menu {
     width: 20%;
     display: inline-block;
 }
+
 .botaodis {
     cursor: pointer;
     font-size: 2rem;
     background: none;
     background-color: var(--fundo2);
     border: none;
-    padding: 1.05rem 1.5rem;
+    padding: 0.4rem 1rem;
     color: var(--letras);
 }
+
 body {
     background-color: var(--fundo);
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    padding: 0;
 }
+
 header {
     display: flex;
     width: 100%;
@@ -27,11 +35,15 @@ header {
     padding: 1rem;
     position: relative;
     justify-content: center;
-    margin: -1%;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
 }
+
 #menutoggle {
     display: none;
 }
+
 .lista {
     display: none;
     position: absolute;
@@ -39,22 +51,68 @@ header {
     box-shadow: 0 2px 5px var(--letras);
     min-width: 190px;
     z-index: 1;
-    top: 100%;
 }
-.lista a{
+
+.lista a {
     color: var(--letras);
-    padding: 0.75rem 1rem;
+    padding: 0.55rem;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.7rem;
     display: block;
     text-align: center;
 }
+
 .lista a:hover {
     background-color: var(--fundo);
 }
+
 #menutoggle:checked ~ .lista {
     display: block;
 }
+
 #menutoggle:checked + .botao {
     background-color: var(--fundo);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.caixa1 {
+    padding: 15px;
+    background-color: lightgray;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.concluida {
+    font-weight: bold;
+    text-decoration: underline;
+    color: green;
+}
+.estado {
+    font-weight: bold;
+}
+.Nota {
+    text-decoration: underline;
+    color: green;
 }
