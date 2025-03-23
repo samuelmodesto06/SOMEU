@@ -2,6 +2,7 @@
     --cabecalho: #809D3C;
     --fundo: #A9C46C;
     --fundo2: #5D8736;
+    --sessoes: #F4FFC3;
     --letras: #EEEEEE;
 }
 
@@ -93,13 +94,13 @@ section {
     padding: 20px;
     margin: 20px auto;
     width: 80%;
-    background-color: white;
+    background-color: var(--sessoes);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .caixa1 {
     padding: 15px;
-    background-color: lightgray;
+    background-color: var(--letras);
     border-radius: 0px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
