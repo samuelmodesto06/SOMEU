@@ -16,7 +16,7 @@ menu {
     background: none;
     background-color: var(--fundo2);
     border: none;
-    padding: 0.8rem 0.8rem;
+    padding: 0.4rem 1rem;
     color: var(--letras);
 }
 
@@ -56,9 +56,9 @@ header {
 
 .lista a {
     color: var(--letras);
-    padding: 0.65rem;
+    padding: 0.55rem;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.7rem;
     display: block;
     text-align: center;
 }
