@@ -113,3 +113,7 @@ section {
 .estado {
     font-weight: bold;
 }
+.Nota {
+    text-decoration: underline;
+    color: green;
+}
