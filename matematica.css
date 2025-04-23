@@ -123,3 +123,11 @@ section {
     display: flow-root;
     text-align: center;
 }
+.aqui {
+    color: white;
+    font-weight: bold;
+}
+.estilo {
+    text-decoration: underline;
+    font-weight: bold;
+}
