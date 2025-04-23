@@ -122,6 +122,10 @@ section {
     text-decoration: underline;
     color: green;
 }
+.Nota2 {
+    text-decoration: underline;
+    color: red;
+}
 .cabeçalho {
     background: black;
     color: white;
