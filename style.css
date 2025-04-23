@@ -104,6 +104,11 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
+.progresso {
+    font-weight: bold;
+    text-decoration: underline;
+    color: red;
+}
 .concluida {
     font-weight: bold;
     text-decoration: underline;
@@ -115,4 +120,19 @@ section {
 .Nota {
     text-decoration: underline;
     color: green;
+}
+.cabeçalho {
+    background: black;
+    color: white;
+    display: flow-root;
+    text-align: center;
+}
+.aqui {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.estilo {
+    text-decoration: underline;
+    font-weight: bold;
 }

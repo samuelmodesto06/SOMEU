@@ -110,10 +110,19 @@ section {
     text-decoration: underline;
     color: red;
 }
+.concluida {
+    font-weight: bold;
+    text-decoration: underline;
+    color: green;
+}
 .estado {
     font-weight: bold;
 }
 .Nota {
+    text-decoration: underline;
+    color: green;
+}
+.Nota2 {
     text-decoration: underline;
     color: red;
 }
