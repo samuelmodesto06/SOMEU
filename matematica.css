@@ -126,6 +126,7 @@ section {
 .aqui {
     color: white;
     font-weight: bold;
+    text-decoration: underline;
 }
 .estilo {
     text-decoration: underline;
