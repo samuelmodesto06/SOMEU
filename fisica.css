@@ -1,8 +1,8 @@
 :root {
-    --cabecalho: #809D3C;
-    --fundo: #A9C46C;
-    --fundo2: #5D8736;
-    --sessoes: #F4FFC3;
+    --cabecalho: #AF1740;
+    --fundo: #CC2B52;
+    --fundo2: #740938;
+    --sessoes: #DE7C7D;
     --letras: #EEEEEE;
 }
 
@@ -100,21 +100,20 @@ section {
 }
 .caixa1 {
     padding: 15px;
-    margin: 10px;
     background-color: var(--letras);
     border-radius: 0px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
-.progresso {
-    font-weight: bold;
-    text-decoration: underline;
-    color: red;
-}
 .concluida {
     font-weight: bold;
     text-decoration: underline;
     color: green;
+}
+.progresso {
+    font-weight: bold;
+    text-decoration: underline;
+    color: red;
 }
 .estado {
     font-weight: bold;
@@ -141,19 +140,4 @@ section {
 .estilo {
     text-decoration: underline;
     font-weight: bold;
-}
-
-.conteudo {
-    background-color: var(--branco);
-    border-radius: 10px;
-    padding: 30px;
-    width: 80%;
-    min-width: 280px;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.conteudo:hover {
-    transform: translateY(-10px) scale(1.05);
-    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0.2);
 }
